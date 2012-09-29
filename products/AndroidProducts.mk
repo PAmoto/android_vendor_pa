@@ -13,3 +13,12 @@ endif
 ifeq (pa_toroplus,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_toroplus.mk
 endif
+ifeq (pa_shadow,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_shadow.mk
+endif
+ifeq (pa_droid2,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_droid2.mk
+endif
+ifeq (pa_droid2we,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_droid2we.mk
+endif
