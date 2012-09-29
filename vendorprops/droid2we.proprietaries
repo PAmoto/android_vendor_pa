@@ -1,0 +1,8 @@
+[
+    {
+        "account":      "CM9-D2G",
+        "repository":   "proprietary_vendor_motorola",
+        "target_path":  "vendor/motorola",
+        "revision":     "cm9"
+    }
+]
