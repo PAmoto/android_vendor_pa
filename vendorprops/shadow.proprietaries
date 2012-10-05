@@ -1,6 +1,6 @@
 [
     {
-        "account":      "CM9-D2G",
+        "account":      "Masterchung7",
         "repository":   "proprietary_vendor_motorola",
         "target_path":  "vendor/motorola",
         "revision":     "cm9"

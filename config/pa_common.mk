@@ -16,9 +16,8 @@ endif
     
 # ParanoidAndroid Packages
 PRODUCT_PACKAGES += \
-    ParanoidBackup \
-    ParanoidOTA      
-
+    ParanoidBackup
+	
 # ParanoidAndroid Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(TARGET_PRODUCT)
