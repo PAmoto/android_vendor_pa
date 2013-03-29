@@ -5,7 +5,7 @@ ifeq (pa_shadow,$(TARGET_PRODUCT))
 include vendor/pa/config/pa_common.mk
 
 # Inherit CM9 device configuration
-$(call inherit-product, device/motorola/shadow/shadow.mk)
+$(call inherit-product, device/motorola/shadow/cm.mk)
 
 PRODUCT_NAME := pa_shadow
 
